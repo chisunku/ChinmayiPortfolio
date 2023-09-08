@@ -1,24 +1,14 @@
 import React, { Component } from "react";
 
+
 class Footer extends Component {
   render() {
-    if (this.props.sharedBasicInfo) {
-      var networks = this.props.sharedBasicInfo.social.map(function (network) {
-        return (
-          <span key={network.name} className="m-4">
-            <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
-            </a>
-          </span>
-        );
-      });
-    }
-
     return (
       <footer>
-        <div className="col-md-12">
-          <div className="social-links">{networks}</div>
-
+        <div className="col-md-12" style={{marginTop: "20px"}}>
+          <p> Contact Me at </p>
+          <span><i class="fa fa-phone"></i> +15106039366</span>  &nbsp; &nbsp;
+          <span><i class="fa fa-envelope"></i> chinmayi.sunku@sjsu.edu</span>
           <div className="copyright py-4 text-center">
             <div className="container">
               <small>

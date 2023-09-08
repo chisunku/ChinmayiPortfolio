@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   render() {
@@ -30,18 +26,9 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  <a href = "https://www.linkedin.com/in/chinmayi-sunku/" style={{color: "black"}}><i className="fab fa-linkedin" style={{fontSize:'38px', paddingRight:'30px', paddingTop: '20px'}}/></a>
+                  <a href = "https://github.com/chisunku" style={{color: "black"}}><i className="fab fa-github" style={{fontSize:'38px', paddingRight:'30px', paddingTop: '20px'}}/></a>
+                  <a href = "https://drive.google.com/file/d/1I7h1Ea4luvvi3lVty9A5znH28G2Uw_e_/view?usp=drive_link" style={{color: "black"}}><i class="fa fa-file" style={{fontSize:'38px', paddingTop: '20px'}}></i></a>
                 </span>
               </div>
             </div>

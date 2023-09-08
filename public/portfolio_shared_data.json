@@ -2,13 +2,6 @@
     "basic_info": {
       "name": "Chinmayi Sunku",
       "titles": [ "Full-stack Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/chisunku",
-          "class": "fab fa-github"
-        }
-      ],
       "image": "mee!!.png"
     },
     "skills": {
