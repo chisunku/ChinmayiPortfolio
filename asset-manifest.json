@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ChinmayiPortfolio/static/css/main.ff29f905.chunk.css",
+    "main.js": "/ChinmayiPortfolio/static/js/main.83ffd7f9.chunk.js",
+    "main.js.map": "/ChinmayiPortfolio/static/js/main.83ffd7f9.chunk.js.map",
+    "runtime-main.js": "/ChinmayiPortfolio/static/js/runtime-main.af034481.js",
+    "runtime-main.js.map": "/ChinmayiPortfolio/static/js/runtime-main.af034481.js.map",
+    "static/css/2.3eb2a443.chunk.css": "/ChinmayiPortfolio/static/css/2.3eb2a443.chunk.css",
+    "static/js/2.1c5472e9.chunk.js": "/ChinmayiPortfolio/static/js/2.1c5472e9.chunk.js",
+    "static/js/2.1c5472e9.chunk.js.map": "/ChinmayiPortfolio/static/js/2.1c5472e9.chunk.js.map",
+    "index.html": "/ChinmayiPortfolio/index.html",
+    "precache-manifest.d8bb712ebfc5a6f4e27149f25fdfedcd.js": "/ChinmayiPortfolio/precache-manifest.d8bb712ebfc5a6f4e27149f25fdfedcd.js",
+    "service-worker.js": "/ChinmayiPortfolio/service-worker.js",
+    "static/css/2.3eb2a443.chunk.css.map": "/ChinmayiPortfolio/static/css/2.3eb2a443.chunk.css.map",
+    "static/css/main.ff29f905.chunk.css.map": "/ChinmayiPortfolio/static/css/main.ff29f905.chunk.css.map",
+    "static/js/2.1c5472e9.chunk.js.LICENSE.txt": "/ChinmayiPortfolio/static/js/2.1c5472e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af034481.js",
+    "static/css/2.3eb2a443.chunk.css",
+    "static/js/2.1c5472e9.chunk.js",
+    "static/css/main.ff29f905.chunk.css",
+    "static/js/main.83ffd7f9.chunk.js"
+  ]
+}
