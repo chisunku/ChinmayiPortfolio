@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
-class Projects extends Component {
+class Work extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -32,7 +32,7 @@ class Projects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{position: 'relative'}}
+                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
@@ -50,7 +50,7 @@ class Projects extends Component {
     return (
       <section id="portfolio">
         <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "White" }}>
+          <h1 className="section-title" style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
@@ -67,4 +67,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Work;

@@ -12,6 +12,7 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var demo = this.props.data.demo;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -48,51 +49,27 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab">
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="emojione:red-circle"
-                data-inline="false"
-                style={{ marginLeft: "5px" }}
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:yellow-circle"
-                data-inline="false"
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:green-circle"
-                data-inline="false"
-              ></span>
-            </div>
+            {demo ? <iframe
+              width="560"
+              height="315"
+              src={demo}
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe> : 
             <AwesomeSlider
-              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
-              animation="scaleOutAnimation"
-              className="slider-image"
-            >
-              {img}
-            </AwesomeSlider>
+            cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+            animation="scaleOutAnimation"
+            className="slider-image"
+          >
+            {img}
+          </AwesomeSlider>
+          }
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
-              {title}
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
-              ) : null}
-            </h3>
+            <h3 style={{ padding: "5px 5px 0 5px" }}>{title}</h3>
+            
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>

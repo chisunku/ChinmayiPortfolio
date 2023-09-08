@@ -8,8 +8,8 @@ class Skills extends Component {
         return (
           <li className="list-inline-item mx-3" key={i}>
             <span>
-              <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "220%" }}>
+              <div className="text-center skills-tile" style={{ background: 'black' }}>
+                <i className={skills.class} style={{ fontSize: "220%"}}>
                   <p
                     className="text-center"
                     style={{ fontSize: "30%", marginTop: "4px" }}
@@ -29,11 +29,11 @@ class Skills extends Component {
         <div className="col-md-12">
           <div className="col-md-12">
             <h1 className="section-title">
-              <span className="text-white">{sectionName}</span>
+              <span className="text-dark">{sectionName}</span>
             </h1>
           </div>
           <div className="col-md-12 text-center">
-            <ul className="list-inline mx-auto skill-icon">{skills}</ul>
+            <ul className="list-inline mx-auto skill-icon" >{skills}</ul>
           </div>
         </div>
       </section>
