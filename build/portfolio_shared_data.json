@@ -1,0 +1,63 @@
+{
+    "basic_info": {
+      "name": "Chinmayi Sunku",
+      "titles": [ "Full-stack Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/chisunku",
+          "class": "fab fa-github"
+        }
+      ],
+      "image": "mee!!.png"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "95"
+        },
+        {
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain",
+          "level": "95"
+        },
+        {
+          "name": "HTML",
+          "class": "devicon-html5-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Mongodb",
+          "class": "devicon-mongodb-plain",
+          "level": "80"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "75"
+        },
+        {
+          "name": "Azure",
+          "class": "devicon-azure-plain",
+          "level": "85"
+        },
+        {
+          "name": "Android Studio",
+          "class": "devicon-android-plain",
+          "level": "65"
+        }
+      ]
+    }
+  }
