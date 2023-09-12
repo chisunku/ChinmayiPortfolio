@@ -26,9 +26,9 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <a href = "https://www.linkedin.com/in/chinmayi-sunku/" style={{color: "black"}}><i className="fab fa-linkedin" style={{fontSize:'38px', paddingRight:'30px', paddingTop: '20px'}}/></a>
-                  <a href = "https://github.com/chisunku" style={{color: "black"}}><i className="fab fa-github" style={{fontSize:'38px', paddingRight:'30px', paddingTop: '20px'}}/></a>
-                  <a href = "https://drive.google.com/file/d/1I7h1Ea4luvvi3lVty9A5znH28G2Uw_e_/view?usp=drive_link" style={{color: "black"}}><i class="fa fa-file" style={{fontSize:'38px', paddingTop: '20px'}}></i></a>
+                  <a href = "https://www.linkedin.com/in/chinmayi-sunku/" title="LinkedIn" style={{color: "black"}}><i className="fab fa-linkedin" style={{fontSize:'38px', paddingRight:'30px', paddingTop: '20px'}}/></a>
+                  <a href = "https://github.com/chisunku" title="GitHub" style={{color: "black"}}><i className="fab fa-github" style={{fontSize:'38px', paddingRight:'30px', paddingTop: '20px'}}/></a>
+                  <a href = "https://drive.google.com/file/d/1I7h1Ea4luvvi3lVty9A5znH28G2Uw_e_/view?usp=drive_link" title="Resume" style={{color: "black"}}><i class="fa fa-file" style={{fontSize:'38px', paddingTop: '20px'}}></i></a>
                 </span>
               </div>
             </div>
@@ -41,14 +41,14 @@ class About extends Component {
                       className="iconify"
                       data-icon="emojione:red-circle"
                       data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
+                    ></span>
+                    &nbsp;
                     <span
                       className="iconify"
                       data-icon="twemoji:yellow-circle"
                       data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
+                    ></span>
+                    &nbsp;
                     <span
                       className="iconify"
                       data-icon="twemoji:green-circle"
