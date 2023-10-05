@@ -16,7 +16,7 @@
         "startDate": "2023",
         "description": "I designed and developed an Android barcode scanning application enriched with price comparison and shopping cart functionalities, revolutionizing the way users effortlessly compare prices across various stores. This app seamlessly integrated data analysis and openAI APIs to offer personalized product recommendations while keeping tabs on user preferences for their favorite stores. To enhance the overall user experience, I also incorporated features that allow users to save their preferred products, craft shopping lists, and jot down notes for future purchases. This dynamic solution was realized through the utilization of Android Studio, Java, FireBase, Rapid APIs, and the openAI API, resulting in a feature-rich and user-centric mobile experience.",
         "images": [
-          "images/ScanIT.png"
+          "ScanIT.png"
         ],
         "demo": "https://www.youtube.com/embed/sy4FiPKvGC0?si=26k52dRKLUiycPDH?autoplay=1",
         "url": "https://github.com/chisunku/ScanIT",
@@ -120,7 +120,7 @@
         "title": "Software Engineer",
         "years": "Aug 2021 – Jul 2022",
         "mainTech": [
-          "SQL"
+          "Software Engineer"
         ],
         "technologies": [
           "Snowflakes",
