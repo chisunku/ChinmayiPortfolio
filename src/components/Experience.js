@@ -5,13 +5,27 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import ProjectDetailsModal from "./ProjectDetailsModal";
 
 class Experience extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      detailsModalShow: false,
+    };
+  }
   render() {
+    let detailsModalShow = (data) => {
+      console.log(data);
+      this.setState({ detailsModalShow: true, deps: data });
+    };
+
+    let detailsModalClose = () => this.setState({ detailsModalShow: false });
+
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
+        const technologies = work.technologies_main_disp;
         const mainTechnologies = work.mainTech;
 
         var mainTech = mainTechnologies.map((technology, i) => {
@@ -29,7 +43,7 @@ class Experience extends Component {
           );
         });
         return (
-          <VerticalTimelineElement
+          <VerticalTimelineElement onTimelineElementClick={() => detailsModalShow(work)}
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
@@ -40,7 +54,7 @@ class Experience extends Component {
             icon={<i class="fas fa-desktop experience-icon"></i>}
             key={i}
           >
-            <div style={{ textAlign: "left", marginBottom: "4px" }}>
+            <div style={{ textAlign: "left", marginBottom: "4px" }} >
               {mainTech}
             </div>
 
@@ -85,7 +99,13 @@ class Experience extends Component {
               icon={
                 <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
               }
-            />
+            >
+              <ProjectDetailsModal
+                show={this.state.detailsModalShow}
+                onHide={detailsModalClose}
+                data={this.state.deps}
+              />
+            </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
       </section>

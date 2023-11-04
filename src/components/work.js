@@ -13,6 +13,7 @@ class Work extends Component {
   render() {
     let detailsModalShow = (data) => {
       this.setState({ detailsModalShow: true, deps: data });
+      alert("Clicked!!!")
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
