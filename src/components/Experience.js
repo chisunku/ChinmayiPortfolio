@@ -99,13 +99,7 @@ class Experience extends Component {
               icon={
                 <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
               }
-            >
-              <ProjectDetailsModal
-                show={this.state.detailsModalShow}
-                onHide={detailsModalClose}
-                data={this.state.deps}
-              />
-            </VerticalTimelineElement>
+            />
           </VerticalTimeline>
         </div>
       </section>

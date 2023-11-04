@@ -225,6 +225,7 @@
         "company": "MSRIT",
         "title": "Research Intern",
         "years": "Jan 2020 – Mar 2020",
+        "description":"I collaborated with my team to conduct research and collectively developed an innovative posture monitoring project, which represented a significant advancement in healthcare technology. I was responsible for processing sensor data, and I utilized ETL (Extract, Transform, Load) techniques to improve the accuracy of patient data. This enhanced accuracy provided healthcare professionals with more reliable information for their decision-making. I took charge of designing and validating a user-friendly Graphical User Interface (GUI). This GUI was instrumental in simplifying the interpretation of data for medical practitioners, making their work more efficient and effective. Throughout this project, I primarily worked with Java-Spring Boot technologies, which played a vital role in the successful implementation of our healthcare technology innovation.",
         "mainTech": [
           "Research"
         ],
